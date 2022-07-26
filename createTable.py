@@ -14,7 +14,7 @@ def crear_tabla(conexion, definicion):
     conexion.commit()
 
 
-conexion = crear_conexion('Parte001/usuarios.db')
+conexion = crear_conexion('ruta a la base de datos')
 
 sql = """
 CREATE TABLE usuario(
