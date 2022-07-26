@@ -1,7 +1,7 @@
 import sqlite3
 
 try:
-    conexion = sqlite3.connect('data/bd_sqlite.db')
+    conexion = sqlite3.connect('Insertar nombre base de datos.')
     cursor = conexion.cursor()
 
     print('Se ha creado la base de datos.')
