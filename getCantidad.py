@@ -59,7 +59,7 @@ def recuperar_producto_por_id(conexion, id):
     for r in registros:
         print(r)
 
-conexion = crear_conexion('Parte001/usuarios_885.db')
+conexion = crear_conexion('ruta')
 
 sql = """
 CREATE TABLE usuario(
