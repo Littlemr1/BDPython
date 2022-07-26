@@ -31,7 +31,7 @@ def crear_usuario(conexion, usuario):
 
     conexion.commit()
 
-conexion = crear_conexion('Parte001/usuarios_887.db')
+conexion = crear_conexion('ruta')
 
 sql = """
 CREATE TABLE usuario (
