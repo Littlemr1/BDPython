@@ -37,7 +37,7 @@ def insertar_productos(conexion):
 
     conexion.commit()
 
-conexion = crear_conexion('Parte001/usuarios_883.db')
+conexion = crear_conexion('ruta')
 
 sql = """
 CREATE TABLE usuario(
