@@ -86,7 +86,7 @@ def eliminar_usuario(conexion, id_usuario):
 
     conexion.commit()
 
-conexion = crear_conexion('Parte001/usuarios_889.db')
+conexion = crear_conexion('ruta')
 
 sql = """
 CREATE TABLE usuario (
