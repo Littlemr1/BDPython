@@ -84,7 +84,7 @@ def actualizar_usuario(conexion, usuario):
     cursor = conexion.cursor()
     cursor.execute(sql, (usuario[1], usuario[2], usuario[0]))
 
-conexion = crear_conexion('Parte001/usuarios_888.db')
+conexion = crear_conexion('ruta')
 
 sql = """
 CREATE TABLE usuario (
