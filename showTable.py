@@ -23,7 +23,7 @@ def mostrar_tablas(conexion):
     for t in tablas:
         print(t[0])
 
-conexion = crear_conexion('Parte001/usuarios.db')
+conexion = crear_conexion('ruta')
 
 sql = """
 CREATE TABLE usuario(
